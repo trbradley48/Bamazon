@@ -132,7 +132,7 @@ function start() {
                     product_name: response.productName,
                     department_name: response.departmentName,
                     price: response.price,
-                    stock_quantity: response.stock
+                    stock_quantity: response.quantity
                   },
                 function (err) {
                   if (err) throw err;
